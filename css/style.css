@@ -10,7 +10,46 @@ a {
   text-decoration: none;
 }
 
-/* Header */
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.title span {
+  color: #fd9222;
+}
+
+/** ============================================== */
+/** ====================HEADER==================== */
+
+.header {
+}
+
+.header-nav {
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -23,10 +62,334 @@ a {
   font-style: italic;
 }
 
+.header-logo-img {
+}
+
+.header-menu-list {
+}
+
+.header-menu-item {
+}
+
 .header-menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: #111;
+}
+
+.header-contacts-list {
+}
+
+.header-contacts-item {
+}
+
+.header-contacts-link {
+}
+
+.header-contacts-img {
+}
+
+.header-logo {
+}
+
+.header-logo-cursive {
+}
+
+/** ============================================== */
+/** ====================HERO==================== */
+
+.hero {
+  background: rgba(17, 17, 17, 0.6);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-buy-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-made-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-down-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+/** ============================================== */
+/** ====================ADVANTEGES==================== */
+
+.advanteges {
+  background: #1e1823;
+}
+.advanteges-list {
+}
+.advanteges-item {
+}
+.advanteges-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.advanteges-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/** ============================================== */
+/** ====================TASTE==================== */
+
+.taste {
+}
+
+.taste-title {
+}
+
+.taste-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-img {
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/** ============================================== */
+/** ====================MADE==================== */
+
+.made {
+}
+
+.made-title {
+}
+
+.made-image {
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+
+.made-list {
+}
+
+.made-item {
+}
+
+.made-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/** ============================================== */
+/** ====================PRODUCTS==================== */
+
+.products {
+}
+
+.products-title {
+}
+
+.products-list {
+}
+
+.products-item {
+}
+
+.products-img {
+}
+
+.products-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.products-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.products-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+}
+
+/** ============================================== */
+/** ====================SELLERS==================== */
+
+.sellers {
+}
+
+.sellers-title {
+}
+
+.sellers-list {
+}
+
+.sellers-item {
+}
+
+.sellers-img {
+}
+
+.sellers-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/** ============================================== */
+/** ====================LOVED==================== */
+
+.loved {
+}
+
+.loved-title {
+}
+
+.loved-list {
+}
+
+.loved-item {
+}
+
+.loved-img {
+}
+
+.loved-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #111;
+}
+
+.loved-text {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+/** ============================================== */
+/** ====================FOOTER==================== */
+
+.footer {
+  background: #1e1823;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-title span {
+  color: #fd9222;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-social-list {
+}
+
+.footer-social-item {
+}
+
+.footer-social-link {
+}
+
+.contacts {
+}
+
+.contacts-list {
+}
+
+.contacts-item {
+}
+
+.contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.menu-list {
+}
+
+.menu-item {
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
 }
