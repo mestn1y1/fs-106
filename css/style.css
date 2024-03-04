@@ -4,6 +4,19 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -41,10 +54,18 @@ address {
   color: #fd9222;
 }
 
+.container {
+  max-width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /** ============================================== */
 /** ====================HEADER==================== */
 
 .header {
+  padding: 24px 0 32px 0;
 }
 
 .header-nav {
@@ -101,21 +122,36 @@ address {
 /** ====================HERO==================== */
 
 .hero {
+  padding-bottom: 80px;
+}
+
+.hero-wrap {
   background: rgba(17, 17, 17, 0.6);
+  padding: 380px 40px 40px 40px;
+  border-radius: 30px;
 }
 
 .hero-title {
+  max-width: 484px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-bottom: 32px;
 }
 
 .hero-buy-btn {
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 144px;
+  height: 45px;
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  border: none;
+  background: #fd9222;
+  cursor: pointer;
 }
 
 .hero-made-btn {
@@ -137,6 +173,7 @@ address {
 
 .advanteges {
   background: #1e1823;
+  padding: 50px;
 }
 .advanteges-list {
 }
@@ -158,12 +195,19 @@ address {
 /** ====================TASTE==================== */
 
 .taste {
+  padding-top: 114px;
 }
 
 .taste-title {
+  max-width: 412px;
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 
 .taste-text {
+  max-width: 486px;
+  margin: 0 auto;
+  margin-bottom: 50px;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -192,9 +236,11 @@ address {
 /** ====================MADE==================== */
 
 .made {
+  padding-top: 126px;
 }
 
 .made-title {
+  margin-bottom: 50px;
 }
 
 .made-image {
@@ -224,9 +270,11 @@ address {
 /** ====================PRODUCTS==================== */
 
 .products {
+  padding-top: 120px;
 }
 
 .products-title {
+  margin-bottom: 50px;
 }
 
 .products-list {
@@ -264,9 +312,11 @@ address {
 /** ====================SELLERS==================== */
 
 .sellers {
+  padding-top: 120px;
 }
 
 .sellers-title {
+  margin-bottom: 50px;
 }
 
 .sellers-list {
@@ -291,12 +341,16 @@ address {
 /** ====================LOVED==================== */
 
 .loved {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .loved-title {
+  margin-bottom: 50px;
 }
 
 .loved-list {
+  margin-bottom: 50px;
 }
 
 .loved-item {
@@ -314,6 +368,7 @@ address {
 }
 
 .loved-text {
+  /* max-width: 312px; */
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
@@ -322,9 +377,16 @@ address {
 }
 
 .loved-btn {
+  display: block;
   font-weight: 600;
   font-size: 18px;
   color: #111;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 222px;
+  height: 50px;
+  margin: 0 auto;
 }
 
 /** ============================================== */
@@ -332,6 +394,8 @@ address {
 
 .footer {
   background: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer-title {
