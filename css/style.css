@@ -27,6 +27,10 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -68,10 +72,20 @@ address {
   padding: 24px 0 32px 0;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .header-logo {
+  display: flex;
+  align-items: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -87,6 +101,9 @@ address {
 }
 
 .header-menu-list {
+  display: flex;
+  gap: 24px;
+  margin-right: 90px;
 }
 
 .header-menu-item {
@@ -101,6 +118,8 @@ address {
 }
 
 .header-contacts-list {
+  display: flex;
+  gap: 14px;
 }
 
 .header-contacts-item {
@@ -141,23 +160,34 @@ address {
   margin-bottom: 32px;
 }
 
+.hero-btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
 .hero-buy-btn {
   border-radius: 100px;
   padding: 14px 40px;
-  width: 144px;
-  height: 45px;
+  /* width: 144px;
+  height: 45px; */
   font-weight: 600;
   font-size: 14px;
   color: #fff;
   border: none;
   background: #fd9222;
   cursor: pointer;
+  margin-right: 14px;
 }
 
 .hero-made-btn {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  /* Костиль от Серёги для ровности кнопок */
+  line-height: 1.02;
 }
 
 .hero-down-btn {
@@ -166,6 +196,7 @@ address {
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-left: auto;
 }
 
 /** ============================================== */
@@ -173,16 +204,24 @@ address {
 
 .advanteges {
   background: #1e1823;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
 .advanteges-list {
+  display: flex;
+  gap: 88px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .advanteges-item {
+  width: calc((100% - 2 * 88px) / 3);
 }
 .advanteges-subtitle {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 18px;
 }
 .advanteges-text {
   font-size: 14px;
@@ -216,12 +255,38 @@ address {
 }
 
 .taste-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 24px;
 }
 
 .taste-item {
+  width: calc((100% - 3 * 32px) / 4);
+  border-radius: 15px;
+  padding: 28px 23px;
+}
+
+.taste-item:nth-child(1),
+.taste-item:nth-child(5) {
+  background: #fd9222;
+}
+
+.taste-item:nth-child(3),
+.taste-item:nth-child(7) {
+  background: #1e1823;
+}
+
+.taste-item:nth-child(odd) h3 {
+  color: #fafafa;
+}
+
+.taste-item:nth-child(even) {
+  border: 1px solid #fd9222;
 }
 
 .taste-img {
+  margin-bottom: 36px;
 }
 
 .taste-subtitle {
@@ -230,6 +295,7 @@ address {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
+  padding-left: 5px;
 }
 
 /** ============================================== */
@@ -237,6 +303,11 @@ address {
 
 .made {
   padding-top: 126px;
+}
+
+.made-wrap {
+  display: flex;
+  gap: 20px;
 }
 
 .made-title {
@@ -251,12 +322,18 @@ address {
   font-size: 18px;
   line-height: 1.33;
   color: #111;
+  margin-bottom: 28px;
+}
+
+.made-list-wrap {
+  padding: 32px;
 }
 
 .made-list {
 }
 
 .made-item {
+  margin-bottom: 24px;
 }
 
 .made-text {
@@ -278,12 +355,22 @@ address {
 }
 
 .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 18px;
+  row-gap: 24px;
 }
 
 .products-item {
+  width: calc((100% - 3 * 18) / 4);
+  padding: 32px 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
 }
 
 .products-img {
+  margin-bottom: 8px;
 }
 
 .products-subtitle {
@@ -293,6 +380,8 @@ address {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #111;
+  text-align: center;
+  margin-bottom: 2px;
 }
 
 .products-text {
@@ -300,12 +389,19 @@ address {
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  margin-bottom: 18px;
 }
 
 .products-btn {
   font-weight: 600;
   font-size: 14px;
   color: #111;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  padding: 8px 20px;
 }
 
 /** ============================================== */
@@ -320,12 +416,19 @@ address {
 }
 
 .sellers-list {
+  display: flex;
+  gap: 16px;
 }
 
 .sellers-item {
+  border-radius: 0 0 15px 15px;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  border-left: 1px solid rgba(17, 17, 17, 0.1);
+  border-right: 1px solid rgba(17, 17, 17, 0.1);
 }
 
 .sellers-img {
+  margin-bottom: 28px;
 }
 
 .sellers-subtitle {
@@ -335,6 +438,8 @@ address {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #111;
+  text-align: center;
+  margin-bottom: 28px;
 }
 
 /** ============================================== */
@@ -350,13 +455,21 @@ address {
 }
 
 .loved-list {
+  position: relative;
   margin-bottom: 50px;
+  display: flex;
+  gap: 28px;
 }
 
 .loved-item {
+  width: calc((100% - 2 * 28px) / 3);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  padding: 56px 24px 24px 24px;
 }
 
 .loved-img {
+  margin: 0 auto;
 }
 
 .loved-subtitle {
@@ -365,6 +478,7 @@ address {
   line-height: 1.33333;
   text-align: center;
   color: #111;
+  margin-bottom: 24px;
 }
 
 .loved-text {

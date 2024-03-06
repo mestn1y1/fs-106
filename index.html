@@ -24,7 +24,7 @@
       <!-- HEADER -->
 
       <header class="header">
-        <div class="container">
+        <div class="container header-container">
           <nav class="header-nav">
             <a class="header-logo" href="./index.html">
               <span class="header-logo-cursive">SIMPLY</span> CHOCOLATE
@@ -99,9 +99,11 @@
               Treat yourself or a loved one to our finest ingredients for a
               moment of pure delight!
             </h1>
-            <button class="hero-buy-btn" type="button">Buy now</button>
-            <a class="hero-made-btn" href="">How it’s made</a>
-            <a class="hero-down-btn" href="">scroll down</a>
+            <div class="hero-btn-wrap">
+              <button class="hero-buy-btn" type="button">Buy now</button>
+              <a class="hero-made-btn" href="">How it’s made</a>
+              <a class="hero-down-btn" href="">scroll down</a>
+            </div>
           </div>
         </div>
       </section>
@@ -121,7 +123,7 @@
                 Unsurpassed Taste and discover a new level of chocolate bliss.
               </p>
             </li>
-            <li>
+            <li class="advanteges-item">
               <h3 class="advanteges-subtitle">Affordable price</h3>
               <p class="advanteges-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -131,7 +133,7 @@
                 in affordable luxury today.
               </p>
             </li>
-            <li>
+            <li class="advanteges-item">
               <h3 class="advanteges-subtitle">Own production</h3>
               <p class="advanteges-text">
                 We take pride in our own production process, ensuring that every
@@ -162,7 +164,7 @@
               <img
                 src="./images/milk_chocolate.png"
                 alt="milk chocolate"
-                width="240"
+                width="214"
                 height="160"
                 class="taste-img"
               />
@@ -172,7 +174,7 @@
               <img
                 src="./images/bottle-of-milk.png"
                 alt="bottle of milk"
-                width="240"
+                width="214"
                 height="160"
                 class="taste-img"
               />
@@ -182,8 +184,9 @@
               <img
                 src="./images/nuts.png"
                 alt="nuts"
-                width="240"
+                width="214"
                 height="160"
+                class="taste-img"
               />
               <h3 class="taste-subtitle">NUTS</h3>
             </li>
@@ -191,7 +194,7 @@
               <img
                 src="./images/semi-chocolate.png"
                 alt="semi chocolate"
-                width="240"
+                width="214"
                 height="160"
                 class="taste-img"
               />
@@ -201,7 +204,7 @@
               <img
                 src="./images/cacao.png"
                 alt="cacao"
-                width="240"
+                width="214"
                 height="160"
                 class="taste-img"
               />
@@ -211,7 +214,7 @@
               <img
                 src="./images/raspberry.png"
                 alt="raspberry"
-                width="240"
+                width="214"
                 height="160"
                 class="taste-img"
               />
@@ -221,7 +224,7 @@
               <img
                 src="./images/coconut.png"
                 alt="coconut oil"
-                width="240"
+                width="214"
                 height="160"
                 class="taste-img"
               />
@@ -231,7 +234,7 @@
               <img
                 src="./images/vanila.png"
                 alt="vanilla"
-                width="240"
+                width="214"
                 height="160"
                 class="taste-img"
               />
@@ -246,47 +249,50 @@
       <section class="made">
         <div class="container">
           <h2 class="made-title title">HOW IT’S <span>MADE?</span></h2>
-          <img
-            src="./images/make-chokolate.jpg"
-            alt="make chocolate"
-            class="made-image"
-          />
-          <div>
-            <h3 class="made-subtitle">
-              Try our chocolates today and discover the perfect balance of
-              flavor
-            </h3>
-            <ul class="made-list">
-              <li class="made-item">
-                <p class="made-text">
-                  Heat the milk in a saucepan without bringing it to a boil. Add
-                  sugar and cocoa powder.
-                </p>
-              </li>
-              <li class="made-item">
-                <p class="made-text">
-                  At the same time, prepare a water bath. Melt the butter on it.
-                </p>
-              </li>
-              <li class="made-item">
-                <p class="made-text">
-                  "Mix" the milk mixture and already liquid butter. Mix
-                  thoroughly with a silicone spatula so that the mass becomes
-                  uniform and silky.
-                </p>
-              </li>
-              <li class="made-item">
-                <p class="made-text">
-                  Heat the mixture over low heat, letting it barely boil.
-                </p>
-              </li>
-              <li class="made-item">
-                <p class="made-text">
-                  Pour the chocolate into special containers (can be replaced
-                  with ice molds). Allow to cool and harden.
-                </p>
-              </li>
-            </ul>
+          <div class="made-wrap">
+            <img
+              src="./images/make-chokolate.jpg"
+              alt="make chocolate"
+              class="made-image"
+            />
+            <div class="made-list-wrap">
+              <h3 class="made-subtitle">
+                Try our chocolates today and discover the perfect balance of
+                flavor
+              </h3>
+              <ul class="made-list">
+                <li class="made-item">
+                  <p class="made-text">
+                    Heat the milk in a saucepan without bringing it to a boil.
+                    Add sugar and cocoa powder.
+                  </p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">
+                    At the same time, prepare a water bath. Melt the butter on
+                    it.
+                  </p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">
+                    "Mix" the milk mixture and already liquid butter. Mix
+                    thoroughly with a silicone spatula so that the mass becomes
+                    uniform and silky.
+                  </p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">
+                    Heat the mixture over low heat, letting it barely boil.
+                  </p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">
+                    Pour the chocolate into special containers (can be replaced
+                    with ice molds). Allow to cool and harden.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -333,7 +339,7 @@
               <p class="products-text">Dark chocolate</p>
               <button class="products-btn">66 UAH</button>
             </li>
-            <li>
+            <li class="products-item">
               <img
                 src="./images/products/pineapple-chocolate.jpg"
                 alt="pineapple chocolate"
@@ -341,11 +347,11 @@
                 height="200"
                 class="products-img"
               />
-              <h3>PINEAPPLE</h3>
+              <h3 class="products-subtitle">PINEAPPLE</h3>
               <p class="products-text">Dark chocolate</p>
               <button class="products-btn">54 UAH</button>
             </li>
-            <li>
+            <li class="products-item">
               <img
                 src="./images/products/classic-milk-chocolate.jpg"
                 alt="classic milk chocolate"
@@ -357,7 +363,7 @@
               <p class="products-text">Milk chocolate</p>
               <button class="products-btn">45 UAH</button>
             </li>
-            <li>
+            <li class="products-item">
               <img
                 src="./images/products/honey-chocolate.jpg"
                 alt="honey chocolate"
@@ -369,7 +375,7 @@
               <p class="products-text">Milk chocolate</p>
               <button class="products-btn">50 UAH</button>
             </li>
-            <li>
+            <li class="products-item">
               <img
                 src="./images/products/roasted-fruits-chocolate.jpg"
                 alt="roasted fruits chocolate"
@@ -381,7 +387,7 @@
               <p class="products-text">Dark chocolate</p>
               <button class="products-btn">66 UAH</button>
             </li>
-            <li>
+            <li class="products-item">
               <img
                 src="./images/products/white-chocolate.jpg"
                 alt="white chocolate"
@@ -418,7 +424,6 @@
                 src="./images/top/chocolate-with-fruits.jpg"
                 alt="chocolate with fruits"
                 width="368"
-                class="sellers-subtitle"
                 height="484"
                 class="sellers-img"
               />
