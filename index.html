@@ -28,11 +28,9 @@
           <nav class="header-nav">
             <a class="header-logo" href="./index.html">
               <span class="header-logo-cursive">SIMPLY</span> CHOCOLATE
-              <img
-                class="header-logo-img"
-                src="./images/chocolate-icon.svg"
-                alt="chocolate icon"
-              />
+              <svg class="header-logo-img" width="24" height="24">
+                <use href="./images/icons.svg#icon-chocolate-logo"></use>
+              </svg>
             </a>
             <ul class="header-menu-list">
               <li class="header-menu-item">
@@ -54,24 +52,9 @@
                 target="_blank"
                 rel="noopener noreferer nofollow"
               >
-                <img
-                  class="header-contacts-img"
-                  src="./images/instagram.svg"
-                  alt="instagram icon"
-              /></a>
-            </li>
-            <li class="header-contacts-item">
-              <a
-                class="header-contacts-link"
-                href=""
-                target="_blank"
-                rel="noopener noreferer mofol"
-              >
-                <img
-                  class="header-contacts-img"
-                  src="./images/facebook.svg"
-                  alt="facebook icon"
-                />
+                <svg class="header-contacts-img" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
             <li class="header-contacts-item">
@@ -79,12 +62,24 @@
                 class="header-contacts-link"
                 href=""
                 target="_blank"
-                rel="noopener noreferer mofol"
-                ><img
-                  class="header-contacts-img"
-                  src="./images/twitter.svg"
-                  alt="twitter icon"
-              /></a>
+                rel="noopener noreferer nofollow"
+              >
+                <svg class="header-contacts-img" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-contacts-item">
+              <a
+                class="header-contacts-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferer nofollow"
+              >
+                <svg class="header-contacts-img" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -102,7 +97,12 @@
             <div class="hero-btn-wrap">
               <button class="hero-buy-btn" type="button">Buy now</button>
               <a class="hero-made-btn" href="">How it’s made</a>
-              <a class="hero-down-btn" href="">scroll down</a>
+              <a class="hero-down-btn" href="">
+                scroll down
+                <svg class="hero-btn-img" width="22" height="22">
+                  <use href="./images/icons.svg#icon-angle-small-left"></use>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
@@ -115,6 +115,11 @@
           <h2 class="visually-hidden">Reference</h2>
           <ul class="advanteges-list">
             <li class="advanteges-item">
+              <div class="adv-img-wrap">
+                <svg class="advanteges-img" width="28" height="28">
+                  <use href="./images/icons.svg#icon-chocolate-bar"></use>
+                </svg>
+              </div>
               <h3 class="advanteges-subtitle">Unsurpassed taste</h3>
               <p class="advanteges-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -124,6 +129,11 @@
               </p>
             </li>
             <li class="advanteges-item">
+              <div class="adv-img-wrap">
+                <svg class="advanteges-img" width="28" height="28">
+                  <use href="./images/icons.svg#icon-Coin"></use>
+                </svg>
+              </div>
               <h3 class="advanteges-subtitle">Affordable price</h3>
               <p class="advanteges-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -134,6 +144,11 @@
               </p>
             </li>
             <li class="advanteges-item">
+              <div class="adv-img-wrap">
+                <svg class="advanteges-img" width="28" height="28">
+                  <use href="./images/icons.svg#icon-spoon"></use>
+                </svg>
+              </div>
               <h3 class="advanteges-subtitle">Own production</h3>
               <p class="advanteges-text">
                 We take pride in our own production process, ensuring that every
@@ -410,33 +425,57 @@
           <h2 class="sellers-title title"><span>TOP</span> SELLERS</h2>
           <ul class="sellers-list">
             <li class="sellers-item">
-              <img
-                src="./images/top/chocolate-with-nuts.jpg"
-                alt="chocolate with nuts"
-                width="368"
-                height="484"
-                class="sellers-img"
-              />
+              <div class="sellers-down-wrap">
+                <p class="sellers-down-text">
+                  Chocolate with fruit is an unbeatable combination of two of
+                  the tastiest things in the world. This dessert combines
+                  delicate and aromatic chocolate with fresh and juicy fruits,
+                  creating a true poetry of taste.
+                </p>
+                <img
+                  src="./images/top/chocolate-with-nuts.jpg"
+                  alt="chocolate with nuts"
+                  width="368"
+                  height="484"
+                  class="sellers-img"
+                />
+              </div>
               <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
             </li>
             <li class="sellers-item">
-              <img
-                src="./images/top/chocolate-with-fruits.jpg"
-                alt="chocolate with fruits"
-                width="368"
-                height="484"
-                class="sellers-img"
-              />
+              <div class="sellers-down-wrap">
+                <p class="sellers-down-text">
+                  Chocolate with fruit is an unbeatable combination of two of
+                  the tastiest things in the world. This dessert combines
+                  delicate and aromatic chocolate with fresh and juicy fruits,
+                  creating a true poetry of taste.
+                </p>
+                <img
+                  src="./images/top/chocolate-with-fruits.jpg"
+                  alt="chocolate with fruits"
+                  width="368"
+                  height="484"
+                  class="sellers-img"
+                />
+              </div>
               <h3 class="sellers-subtitle">CHOCOLATE WITH FRUITS</h3>
             </li>
             <li class="sellers-item">
-              <img
-                src="./images/top/dark-chocolate.jpg"
-                alt="dark chocolate"
-                width="368"
-                height="484"
-                class="sellers-img"
-              />
+              <div class="sellers-down-wrap">
+                <p class="sellers-down-text">
+                  Chocolate with fruit is an unbeatable combination of two of
+                  the tastiest things in the world. This dessert combines
+                  delicate and aromatic chocolate with fresh and juicy fruits,
+                  creating a true poetry of taste.
+                </p>
+                <img
+                  src="./images/top/dark-chocolate.jpg"
+                  alt="dark chocolate"
+                  width="368"
+                  height="484"
+                  class="sellers-img"
+                />
+              </div>
               <h3 class="sellers-subtitle">DARK CHOCOLATE</h3>
             </li>
           </ul>
@@ -497,54 +536,69 @@
 
     <footer class="footer">
       <div class="container">
-        <h2 class="footer-title">
-          <span>Chocolate</span> a delicious cure for a bad day
-        </h2>
-        <p class="footer-subtitle">Social networks</p>
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a
-              class="footer-social-link"
-              href=""
-              target="_blank"
-              rel="noopener noreferer nofollow"
-              ><img src="./images/instagram.svg" alt="instagram icon"
-            /></a>
-          </li>
-          <li class="footer-social-item">
-            <a
-              class="footer-social-link"
-              href=""
-              target="_blank"
-              rel="noopener noreferer nofollow"
-              ><img src="./images/facebook.svg" alt="facebook icon"
-            /></a>
-          </li>
-          <li class="footer-social-item">
-            <a
-              class="footer-social-link"
-              href=""
-              target="_blank"
-              rel="noopener noreferer nofollow"
-              ><img src="./images/twitter.svg" alt="twitter icon"
-            /></a>
-          </li>
-        </ul>
-        <p class="footer-subtitle">Contact us</p>
-        <address class="contacts">
-          <ul class="contacts-list">
-            <li class="contacts-item">
-              <a class="contacts-link" href="tel:+380684439426"
-                >+380 (68) 443-94-26</a
-              >
-            </li>
-            <li>
-              <a class="contacts-link" href="mailto:simplychoc@gmail.com"
-                >simplychoco@gmail.com</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="footer-wrapper">
+          <h2 class="footer-title">
+            <span>Chocolate</span> a delicious cure for a bad day
+          </h2>
+          <div class="footer-social-wrap">
+            <p class="footer-subtitle">Social networks</p>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a
+                  class="footer-social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferer nofollow"
+                >
+                  <svg class="footer-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a
+                  class="footer-social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferer nofollow"
+                >
+                  <svg class="footer-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a
+                  class="footer-social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferer nofollow"
+                >
+                  <svg class="footer-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts-wrap">
+            <p class="footer-subtitle">Contact us</p>
+            <address class="contacts">
+              <ul class="contacts-list">
+                <li class="contacts-item">
+                  <a class="contacts-link" href="tel:+380684439426"
+                    >+380 (68) 443-94-26</a
+                  >
+                </li>
+                <li>
+                  <a class="contacts-link" href="mailto:simplychoc@gmail.com"
+                    >simplychoco@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
         <hr />
         <ul class="menu-list">
           <li class="menu-item">
