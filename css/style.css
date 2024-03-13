@@ -627,7 +627,7 @@ img {
 
 .footer-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 54px;
 }
 
