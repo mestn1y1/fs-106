@@ -235,6 +235,7 @@ img {
 
 .taste {
   padding-top: 114px;
+  padding-bottom: 60px;
 }
 
 .taste-title {
@@ -302,7 +303,8 @@ img {
 /** ====================MADE==================== */
 
 .made {
-  padding-top: 126px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .made-wrap {
@@ -347,7 +349,8 @@ img {
 /** ====================PRODUCTS==================== */
 
 .products {
-  padding-top: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .products-title {
@@ -408,7 +411,8 @@ img {
 /** ====================SELLERS==================== */
 
 .sellers {
-  padding-top: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .sellers-title {
@@ -446,7 +450,7 @@ img {
 /** ====================LOVED==================== */
 
 .loved {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
 }
 
